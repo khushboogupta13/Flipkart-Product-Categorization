@@ -16,7 +16,23 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
   1. The dataset and several of its hidden parameters were visualised (using libraries like `seaborn`, `matplotlib`, `yellowbrick`, etc). This then helped in data cleaning as several words from the Word Cloud were removed from the corpus as they did not contribute much in terms of Product Classification.
   2. It was decided to move forward by only using the **root of the Product Category Tree** as the Primary label/category for classification.
   3. Data cleaning, preprocessing and resampling was then performed to balance out the given dataset. 
-  4. Then, the following Machine Learning algorithms (using `scikit-learn` libraries) were applied on the dataset:
+  4. After a detailed analysis of the dataset through visualisation and other parameters, it was decided to categorise the products in the following 13 categories and remove the noise (other miscellaneous categories having less than 10 products):
+    
+    a) Clothing
+    b) Jewellery
+    c) Sports & Fitness
+    d) Electronics
+    e) Babycare
+    f) Home Furnishing & Kitchen
+    g) Personal Accessories
+    h) Automotive
+    i) Pet Supplies
+    j) Tools & Hardware
+    k) Ebooks
+    l) Toys & School Supplies
+    m) Footwear
+    
+  6. Then, the following Machine Learning algorithms (using `scikit-learn` libraries) were applied on the dataset:
     
     a) Logistic Regression (Binary and Multiclass variants)
     b) Linear Support Vector Machine
