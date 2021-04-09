@@ -64,13 +64,13 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 
 | ML Algorithm       | Validation Accuracy on Imbalanced Dataset          | Validation Accuracy on Balanced Dataset (Oversampling)                          | Validation Accuracy on Balanced Dataset (Undersampling)          |
 | ---                | ---             | ---                                   | ---             | 
-| Logistic Regression (Binary)               | STR             | ID of the post                        | Y               | 
-| Logistic Regression (Multiclass)     | STR             | flair of the post                     | Y               | 
-| Linear SVM     | INT             | number of comments on the post        | Y               | 
-| Naive Bayes            | STR             | description of the post               | Y               | 
-| Decision Trees            | STR             | title of the post                     | Y               | 
-| Random Classifier             | STR             | URL associated with the post          | N                | 
-| K Nearest Neighbours        | __LIST__            | __list of top comments__        | __Y__               | 
+| Logistic Regression (Binary)               | 0.9654           | 0.9756                        | Y               | 
+| Logistic Regression (Multiclass)     | 0.9735            | 0.9893                     | Y               | 
+| Naive Bayes     | 0.9096             | 0.9602        | Y               | 
+| Linear SVM            | 0.9799            | 0.9958               | Y               | 
+| Decision Trees            | 0.70170            | 0.6883                     | Y               | 
+| Random Classifier             | 0.9209          | 0.9367          | N                | 
+| K Nearest Neighbours        | 0.9564           | 0.98       | __Y__               | 
 
 
 
