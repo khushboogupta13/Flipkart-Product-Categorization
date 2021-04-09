@@ -7,8 +7,33 @@ This project aims at predicting the category of a product that is usually availa
 1. [Notebooks](https://github.com/khushboogupta13/Flipkart-Product-Categorization/tree/main/Notebooks): This is the folder containing all the Jupyter Notebooks that have been used for Exploratory Data Analysis, training and testing of the Machine Learning and Deep Learning models.
 2. [requirements.txt](): This file contains all the dependencies of the project that are needed to reproduce the development environment.
 3. [Dataset](https://github.com/khushboogupta13/Flipkart-Product-Categorization/tree/main/Dataset): This folder contains all the datasets (imbalanced and balanced) in CSV format. 
+4. [Report](): This folder contains the Report which summarises all the observations and conclusions made while working on the project. 
 
 ## Approach
+
+The following tasks were undertaken for the **Multiclass Classification** of e-commerce products based on their **description**:
+
+  1. The dataset and several of its hidden parameters were visualised (using libraries like `seaborn`, `matplotlib`, `yellowbrick`, etc). This then helped in data cleaning as several words from the Word Cloud were removed from the corpus as they did not contribute much in terms of Product Classification.
+  2. It was decided to move forward by only using the **root of the Product Category Tree** as the Primary label/category for classification.
+  3. Data cleaning, preprocessing and resampling was then performed to balance out the given dataset. 
+  4. Then, the following Machine Learning algorithms (using `scikit-learn` libraries) were applied on the dataset:
+    
+    a) Logistic Regression (Binary and Multiclass variants)
+    b) Linear Support Vector Machine
+    c) Multinomial Naive Bayes
+    d) Decision Tree
+    d) Random Forest Classifier
+    e) K Nearest Neighbours
+
+   5. Even though good accuracy was achieved using the ML models, the following Deep Learning Models (using `PyTorch` framework) were also implemented on the dataset:
+    
+    Transformer based models like:
+    a) Bidirectional Encoder Representations from Transformers (BERT)
+    b) RoBERTa
+    c) DistilBERT
+    d)XLNet
+    Recurrent Neural Network based Long-Short Term Memory(LSTM)
+
 
 ### STEP 1: Exploratory Data Analysis and Data Preprocessing
 
