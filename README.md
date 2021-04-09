@@ -67,7 +67,7 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 | Logistic Regression (Binary)               | 0.9654           | 0.9756                        | 0.9486               | 
 | Logistic Regression (Multiclass)     | 0.9735            | 0.9893                     | 0.9654               | 
 | Naive Bayes     | 0.9096             | 0.9602        | 0.9054               | 
-| **Linear SVM            | 0.9799            | 0.9958               | 0.9749               |**
+| __Linear SVM__            | __0.9799__            | __0.9958__              | __0.9749__               |
 | Decision Trees            | 0.70170            | 0.6883                     | 0.7561               | 
 | Random Classifier             | 0.9209          | 0.9367          | 0.9235                | 
 | K Nearest Neighbours        | 0.9564           | 0.98       | 0.9453               | 
