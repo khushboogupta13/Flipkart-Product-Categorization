@@ -1,0 +1,17 @@
+numpy
+simpletransformers
+transformers
+tokenizers
+torchtext
+torchvision
+sklearn
+matplotlib
+regex
+scikit-learn
+wordcloud
+Pillow
+nltk
+Keras
+Keras-Applications
+Keras-Preprocessing
+pandas
