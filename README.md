@@ -59,6 +59,21 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 
 ### STEP 2: Machine Learning Models for Product Categorization
 
+- The above mentioned 6 ML algorithms were applied on the imbalanced, oversampling balanced and undersampling balanced datasets. Noise was removed from each of these datasets and these datasets had already been cleaned and preprocessed in the previous notebook. 
+- Several evaluation metrics like **Classification Report, Confusion Matix, Accuracy Score, ROC Curves and AUC Scores** were used for the comparison of the models. The Validation score of the ML algorithms when applied on the dataset are tabulated below:
+
+| ML Algorithm       | Validation Accuracy on Imbalanced Dataset          | Description                           | PRAW            |
+| ---                | ---             | ---                                   | ---             | 
+| ID                 | STR             | ID of the post                        | Y               | 
+| link_flair_text    | STR             | flair of the post                     | Y               | 
+| num_comments       | INT             | number of comments on the post        | Y               | 
+| selftext           | STR             | description of the post               | Y               | 
+| title              | STR             | title of the post                     | Y               | 
+| url                | STR             | URL associated with the post          | N                | 
+| __comments__           | __LIST__            | __list of top comments__        | __Y__               | 
+| created_utc        | INT             | timestamp of post                     | N                | 
+
+
 ### STEP 3: Deep Learning Models for Product Categorization
 
 ## Future Work
