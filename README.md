@@ -72,7 +72,7 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 | Random Classifier             | 0.9209          | 0.9367          | 0.9235                | 
 | K Nearest Neighbours        | 0.9564           | 0.98       | 0.9453               | 
 
-
+- From the above table, we can clearly see that **Linear Support Vector Machine** algorithm performed the best across all the three datasets.  
 
 ### STEP 3: Deep Learning Models for Product Categorization
 
