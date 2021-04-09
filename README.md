@@ -27,12 +27,12 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 
    5. Even though good accuracy was achieved using the ML models, the following Deep Learning Models (using `PyTorch` framework) were also implemented on the dataset:
     
-    Transformer based models like:
+    1. Transformer based models like:
     a) Bidirectional Encoder Representations from Transformers (BERT)
     b) RoBERTa
     c) DistilBERT
-    d)XLNet
-    Recurrent Neural Network based Long-Short Term Memory(LSTM)
+    d) XLNet
+    2. Recurrent Neural Network based Long-Short Term Memory(LSTM)
 
 
 ### STEP 1: Exploratory Data Analysis and Data Preprocessing
