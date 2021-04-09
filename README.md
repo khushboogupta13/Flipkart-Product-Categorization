@@ -14,6 +14,20 @@ This project aims at predicting the category of a product that is usually availa
 - For Data Cleaning, **Contraction Mapping, removal of custom stopwords, URLs, Tokenization and Lemmatization** was done.
 - Because of the clear imbalance in the dataset, balancing techniques like **Oversampling** and **Undersampling** were performed on the dataset as well. These were then saved in the form of a CSV file.
 
+## Future Work
+- Feature extraction can be performed on the **Product Category Tree** column in order to find a more detailed class to which a product can belong. 
+- Using other advanced data balancing techniques like **SMOTE**, etc.
+- Training and evaluating the Deep Learning model on datasets other than the undersampled one. These models could then be tested on a variety of e-commerce data available online to understand the scalability of the model when it comes to dealing with real-world data. 
+- Using **Named Entity Recognition** techniques to figure out brands that make products belonging to a specific category.  
+
+## References
+- [ Vasvani et. al. Attention is all you need. Nips 2017](https://arxiv.org/pdf/1706.03762)
+- [Simple Transformers](https://github.com/ThilinaRajapakse/simpletransformers#saveevalcheckpoints)
+- [Tranformer Models by HuggingFace](https://huggingface.co/transformers/pretrained_models.html)
+- [Multiclass text classification with Deep Learning](https://www.google.com/url?q=https://towardsdatascience.com/multi-class-text-classification-with-deep-learning-using-bert-b59ca2f5c613&sa=D&source=editors&ust=1618012348136000&usg=AOvVaw1ofOCyteqD6PZaxopj9qc8)
+- [Multiclass text classification using LSTM](https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17)
+
+
 
 
 
