@@ -79,7 +79,7 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 -  The Deep Learning Models were only trained and evaluated on the dataset that was baalnced using the Undersampling technique.
 - After a detailed study of all the Transformer based Deep Learning algorithms like BERT, RoBERTa, DistilBERT, XLNet and Recurrent Neural Network based LSTM, it was decided that **BERT (uncased, base, with all the layers freezed except the last one)** worked the best on our dataset by giving an **f1-score of 0.98**. 
 
-(https://i.imgur.com/SLskxzo.png)
+![Confusion Matrix](https://i.imgur.com/SLskxzo.png)
 
 ## Future Work
 - Feature extraction can be performed on the **Product Category Tree** column in order to find a more detailed class to which a product can belong. 
