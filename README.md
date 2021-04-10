@@ -76,6 +76,11 @@ The following tasks were undertaken for the **Multiclass Classification** of e-c
 
 ### STEP 3: Deep Learning Models for Product Categorization
 
+-  The Deep Learning Models were only trained and evaluated on the dataset that was baalnced using the Undersampling technique.
+- After a detailed study of all the Transformer based Deep Learning algorithms like BERT, RoBERTa, DistilBERT, XLNet and Recurrent Neural Network based LSTM, it was decided that **BERT (uncased, base, with all the layers freezed except the last one)** worked the best on our dataset by giving an **f1-score of 0.98**. 
+
+[Imgur](https://i.imgur.com/SLskxzo.png)
+
 ## Future Work
 - Feature extraction can be performed on the **Product Category Tree** column in order to find a more detailed class to which a product can belong. 
 - Using other advanced data balancing techniques like **SMOTE**, etc.
